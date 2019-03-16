@@ -1,19 +1,12 @@
-Setting up our testing environment is easy. In previous versions of the Vue.js CLI, we had to do this manually, but now it comes as standard with the project generation.
+# Learn how to Test Vue with Jest
 
-Create a new project with the CLI with Unit Testing set as Jest.
+> Learning the process of testing Vue with Jest. Following tutorials and commenting each step along the way. 
 
-Now that we’ve generated our Vue project with Jest, we can navigate to the tests/unit folder. Inside of this folder, we have a file named example.spec.js.
+## Acknowledgments
 
-$ npm run test:unit
+- Following the [Alligator Tutorial](https://alligator.io/vuejs/testing-vue-with-jest/).
 
-We can add the --watch flag to this to keep this running in the background as we create and edit new tests.
+## Authors
 
-"scripts": {
-  "test:unit": "vue-cli-service test:unit --watch"
-}
+Eliza Khachatryan
 
-In order to unit test each component, we’ll need to make a corresponding Component.spec.js file within the tests/unit directory.
-
-A test suite can be thought of as a collection of tests centered around testing a particular module or functionality.
-
-Please see these for comments on basics of how to structure a unit test. 
